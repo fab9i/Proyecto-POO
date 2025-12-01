@@ -31,6 +31,8 @@ public class frmAdmiVehiculo extends javax.swing.JFrame {
         modelo.addColumn("Precio Base");
         modelo.addColumn("Estado");
         tbVehiculo.setModel(modelo);
+
+        listarVehiculos();
     }
     
     void listarVehiculos(){

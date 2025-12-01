@@ -17,7 +17,7 @@ public class frmVendedorCliente extends javax.swing.JFrame {
     
     private DefaultTableModel modelo;
     private GestionClientes gestionClientes = new GestionClientes();
-    listarClientes();
+    
 
     /**
      * Creates new form frmVendedorCliente
@@ -32,6 +32,8 @@ public class frmVendedorCliente extends javax.swing.JFrame {
         modelo.addColumn("N° Celular");
         modelo.addColumn("Correo Electronico");
         tbClientes.setModel(modelo);
+
+        listarClientes();
 
                
     }

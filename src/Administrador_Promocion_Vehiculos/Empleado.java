@@ -73,14 +73,6 @@ public class Empleado {
         this.rol = rol;
     }
     
-    public boolean login(String user, String pass) {
-    return this.getUsuario().equals(user) && this.getContrasena().equals(pass);
-}
-    public boolean esAdmin() {
-    return this.getRol().equals("Administrador");
-}
-
-
-    
+ 
     
 }

@@ -2,10 +2,10 @@
 package comprobante;
 
 import java.time.LocalDateTime;
-import proyecto.Cliente;
-import proyecto.Cotizacion;
-import proyecto_01_02_06_10.Empleado;
-import proyecto_01_02_06_10.Vehiculo;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Cliente;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Cotizacion;
+import Administrador_Promocion_Vehiculos.Empleado;
+import Administrador_Promocion_Vehiculos.Vehiculo;
 
 
 public class Boleta extends Comprobante {
@@ -19,9 +19,8 @@ public class Boleta extends Comprobante {
         System.out.println("=========BOLETA==========");
         System.out.println("========Datos del cliente========");
         System.out.println("DNI: " + cliente.getDni());
-        System.out.println("Nombre: " + cliente.getNombre());
-        System.out.println("Apellido paterno: " + cliente.getApellidoPaterno());
-        System.out.println("Apellido materno: " + cliente.getApellidoMaterno());
+        System.out.println("Nombres : " + cliente.getNombre());
+        System.out.println("Apellidos  " + cliente.getApellido());
         System.out.println("Direccion: " + cliente.getDireccion());
         System.out.println("Celular: " + cliente.getCelular());
         System.out.println("Correo electronico: " + cliente.getCorreoElectronico());

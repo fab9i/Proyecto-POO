@@ -1,7 +1,7 @@
 
 package reportes;
 
-import proyecto_01_02_06_10.Vehiculo;
+import Administrador_Promocion_Vehiculos.Vehiculo;
 
 
 public class ReporteVehiculos extends reporte {

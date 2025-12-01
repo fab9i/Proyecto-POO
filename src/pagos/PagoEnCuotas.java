@@ -1,7 +1,8 @@
 
 package pagos;
 
-import proyecto.Venta;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Pago;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Venta;
 
 
 public class PagoEnCuotas extends Pago {

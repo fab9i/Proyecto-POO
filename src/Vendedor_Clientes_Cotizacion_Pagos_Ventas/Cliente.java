@@ -1,21 +1,20 @@
 
-package proyecto;
+package Vendedor_Clientes_Cotizacion_Pagos_Ventas;
 
 
 public class Cliente {
     
     // ATRIBUTOS
     
-    private String dni, nombre, apellidoPaterno, apellidoMaterno, direccion, celular,
+    private String dni, nombre, apellido, direccion, celular,
                    correoElectronico;
     
     // CONSTRUCTOR
 
-    public Cliente(String dni, String nombre, String apellidoPaterno, String apellidoMaterno, String direccion, String celular, String correoElectronico) {
+    public Cliente(String dni, String nombre, String apellido, String direccion, String celular, String correoElectronico) {
         this.dni = dni;
         this.nombre = nombre;
-        this.apellidoPaterno = apellidoPaterno;
-        this.apellidoMaterno = apellidoMaterno;
+        this.apellido= apellido;
         this.direccion = direccion;
         this.celular = celular;
         this.correoElectronico = correoElectronico;
@@ -39,21 +38,14 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public String getApellidoPaterno() {
-        return apellidoPaterno;
+    public String getApellido() {
+        return apellido;
     }
 
-    public void setApellidoPaterno(String apellidoPaterno) {
-        this.apellidoPaterno = apellidoPaterno;
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 
-    public String getApellidoMaterno() {
-        return apellidoMaterno;
-    }
-
-    public void setApellidoMaterno(String apellidoMaterno) {
-        this.apellidoMaterno = apellidoMaterno;
-    }
 
     public String getDireccion() {
         return direccion;
@@ -79,12 +71,5 @@ public class Cliente {
         this.correoElectronico = correoElectronico;
     }
     
-    // METODOS
-
-    public String obtenerInformacion() {
-        return "Dni: " + dni +
-                "\nNombre: " + nombre +
-                "\nApellido: " + apellidoPaterno + " " + apellidoMaterno;
-                
-    }            
+    // METODOS           
 }

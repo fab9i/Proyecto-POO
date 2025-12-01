@@ -1,8 +1,7 @@
 
-package proyecto;
+package Vendedor_Clientes_Cotizacion_Pagos_Ventas;
 import java.time.LocalDate;
-import proyecto_01_02_06_10.Vehiculo;
-import proyecto_01_02_06_10.Vendedor;
+import Administrador_Promocion_Vehiculos.Vehiculo;
 
 public class Venta {
     

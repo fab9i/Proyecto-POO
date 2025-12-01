@@ -1,10 +1,10 @@
 
 package comprobante;
 import java.time.LocalDateTime;
-import proyecto.Cliente;
-import proyecto.Cotizacion;
-import proyecto_01_02_06_10.Empleado;
-import proyecto_01_02_06_10.Vehiculo;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Cliente;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Cotizacion;
+import Administrador_Promocion_Vehiculos.Empleado;
+import Administrador_Promocion_Vehiculos.Vehiculo;
 
 
 

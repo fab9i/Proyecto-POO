@@ -2,7 +2,7 @@
 package reportes;
 
 import java.time.LocalDate;
-import proyecto.Venta;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Venta;
 
 
 public class ReporteVentas extends reporte{

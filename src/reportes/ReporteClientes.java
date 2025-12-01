@@ -1,7 +1,7 @@
 package reportes;
 
-import proyecto.Venta;
-import proyecto.Cliente;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Venta;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Cliente;
 
 public class ReporteClientes extends reporte {
     private Venta[] ventas;

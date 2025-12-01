@@ -1,7 +1,6 @@
+package Vendedor_Clientes_Cotizacion_Pagos_Ventas;
 
-package pagos;
-
-import proyecto.Venta;
+import Vendedor_Clientes_Cotizacion_Pagos_Ventas.Venta;
 
 
 public abstract class Pago {

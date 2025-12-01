@@ -17,6 +17,7 @@ public class frmVendedorCliente extends javax.swing.JFrame {
     
     private DefaultTableModel modelo;
     private GestionClientes gestionClientes = new GestionClientes();
+    listarClientes();
 
     /**
      * Creates new form frmVendedorCliente

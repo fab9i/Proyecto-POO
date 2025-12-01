@@ -247,7 +247,7 @@ public class frmVendedorCliente extends javax.swing.JFrame {
         //Instanciamos
         Cliente cliente = new Cliente(dni, nombre, apellido, direccion, celular, correoElectronico);
         
-        if(gestionClientes.modificar(cliente)){
+        if(gestionClientes.registar(cliente)){
             listarClientes();
             limpiar();
         }else{
